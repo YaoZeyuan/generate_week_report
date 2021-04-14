@@ -1,7 +1,7 @@
 {
   "name": "generate_week_report",
   "version": "0.0.1",
-  "description": "在当前目录创建当年的工作日志记录, 也可用--year指定创建年份",
+  "description": "在当前目录创建当年的工作日志记录, --year指定创建年份, --report_at指定周报开始日期(1~7), 默认周五",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -12,5 +12,8 @@
     "minimist": "^1.2.5",
     "moment": "^2.29.1",
     "shelljs": "^0.8.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
