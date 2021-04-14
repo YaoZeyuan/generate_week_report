@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 // 一键生成周报目录
 const shell = require("shelljs");
 const moment = require("moment");
